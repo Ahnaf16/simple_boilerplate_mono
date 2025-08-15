@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Resta Dash (Debug)",
+      "request": "launch",
+      "type": "dart",
+      "cwd": "apps/resta_dash",
+      "program": "lib/main.dart"
+    },
+    {
+      "name": "Resta Dash (Profile)",
+      "request": "launch",
+      "type": "dart",
+      "cwd": "apps/resta_dash",
+      "program": "lib/main.dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "Resta Dash (Release)",
+      "request": "launch",
+      "type": "dart",
+      "cwd": "apps/resta_dash",
+      "program": "lib/main.dart",
+      "flutterMode": "release"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/packages/core_functionality/melos_core_functionality.iml" filepath="$PROJECT_DIR$/packages/core_functionality/melos_core_functionality.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/resta_dash/melos_resta_dash.iml" filepath="$PROJECT_DIR$/apps/resta_dash/melos_resta_dash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/resta_dash_waiter/melos_resta_dash_waiter.iml" filepath="$PROJECT_DIR$/apps/resta_dash_waiter/melos_resta_dash_waiter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/shared_ui/melos_shared_ui.iml" filepath="$PROJECT_DIR$/packages/shared_ui/melos_shared_ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_resta_dash_mono.iml" filepath="$PROJECT_DIR$/melos_resta_dash_mono.iml" />
+    </modules>
+  </component>
+</project>

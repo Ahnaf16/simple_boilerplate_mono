@@ -1,0 +1,2 @@
+dependency_overrides:
+  toastification: ^2.3.0

@@ -1,0 +1,22 @@
+name: log_cat
+description: "A new Flutter package project."
+version: 0.0.1
+
+resolution: workspace
+
+publish_to: "none"
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # local
+  database: 0.0.1
+  core_functionality: 0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

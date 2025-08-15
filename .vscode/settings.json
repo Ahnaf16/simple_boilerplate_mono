@@ -1,0 +1,4 @@
+{
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  "build-runner.flutterPath": ".fvm/flutter_sdk/bin/flutter"
+}
