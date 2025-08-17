@@ -12,5 +12,6 @@ export 'layout/corner.dart';
 export 'layout/layouts.dart';
 export 'layout/space.dart';
 export 'parser.dart';
+export 'theme/theme.dart';
 export 'toaster.dart';
 export 'utils.dart';

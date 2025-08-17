@@ -1,5 +1,6 @@
+import 'package:core_functionality/core_functionality.dart';
 import 'package:flutter/material.dart';
-import 'package:resta_dash/main.export.dart';
+import 'package:shared_ui/shared_ui.dart';
 
 class FieldBox extends StatelessWidget {
   const FieldBox({

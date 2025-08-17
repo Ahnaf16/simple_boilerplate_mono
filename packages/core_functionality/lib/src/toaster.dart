@@ -1,6 +1,8 @@
+import 'package:core_functionality/core_functionality.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:resta_dash/main.export.dart';
+import 'package:recase/recase.dart';
+import 'package:shared_ui/shared_ui.dart';
 import 'package:toastification/toastification.dart';
 
 extension ToastificationItemEx on ToastificationItem {
@@ -102,7 +104,7 @@ class Toaster {
   }
 }
 
-class _ToasterLoadingWidget extends HookWidget {
+class _ToasterLoadingWidget extends StatelessWidget {
   const _ToasterLoadingWidget({required this.msg, this.type, this.body, this.onCloseTap});
 
   final String? msg;

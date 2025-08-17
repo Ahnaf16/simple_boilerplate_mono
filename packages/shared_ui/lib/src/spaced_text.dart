@@ -1,5 +1,6 @@
+import 'package:core_functionality/core_functionality.dart';
 import 'package:flutter/material.dart';
-import 'package:resta_dash/main.export.dart';
+import 'package:gap/gap.dart';
 
 typedef StyleBuilder = (TextStyle, TextStyle) Function(TextStyle left, TextStyle right);
 

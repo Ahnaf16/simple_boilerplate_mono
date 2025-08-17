@@ -1,7 +1,8 @@
+import 'package:core_functionality/core_functionality.dart';
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:resta_dash/main.export.dart';
+import 'package:shared_ui/shared_ui.dart';
 
 class AppTheme {
   const AppTheme._();
@@ -37,7 +38,7 @@ class AppTheme {
   static const Color textDark = neutral100;
 
   static const FlexSchemeData restaDashScheme = FlexSchemeData(
-    name: kAppName,
+    name: kName,
     description: 'Run Your Restaurant at the Speed of Service',
     light: FlexSchemeColor(
       primary: primary,

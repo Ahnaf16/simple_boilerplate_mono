@@ -1,6 +1,7 @@
+import 'package:core_functionality/src/theme/theme.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:resta_dash/main.export.dart';
+import 'package:shared_ui/shared_ui.dart';
 
 extension TextStyleExtensions on TextStyle {
   // Weights

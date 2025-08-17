@@ -1,6 +1,6 @@
 import 'package:animated_segmented_tab_control/animated_segmented_tab_control.dart';
+import 'package:core_functionality/core_functionality.dart';
 import 'package:flutter/material.dart';
-import 'package:resta_dash/main.export.dart';
 
 class SegmentedTabbar extends StatelessWidget {
   const SegmentedTabbar({super.key, required this.tabs, this.backgroundColor, this.foregroundColor, this.controller});

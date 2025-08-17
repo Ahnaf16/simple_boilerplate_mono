@@ -1,6 +1,6 @@
+import 'package:core_functionality/core_functionality.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:resta_dash/main.export.dart';
 
 class LoadingIndicator extends StatelessWidget {
   const LoadingIndicator({super.key, this.size, this.strokeWidth, this.indicatorColor}) : _onPrimary = false;

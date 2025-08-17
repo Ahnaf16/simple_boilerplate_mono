@@ -33,8 +33,10 @@ void main(List<String> args) async {
 
 Future<void> _runGen(String? pubPath) async {
   log('Generating assets: ${pubPath ?? 'global'}\n');
-  final cmd = pubPath == null ? <String>[] : ['-c', '$pubPath/pubspec.yaml'];
-  final res = await Process.run('fluttergen', cmd);
+
+  // final cmd = pubPath == null ? <String>[] : ['-c', '$pubPath/pubspec.yaml'];
+  final res = await Process.run('fluttergen', [], workingDirectory: pubPath);
+
   if (res.exitCode != 0) {
     log(res.stderr);
   } else {

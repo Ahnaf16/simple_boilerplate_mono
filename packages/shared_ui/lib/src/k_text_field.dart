@@ -1,9 +1,13 @@
-import 'package:faker/faker.dart' as fk;
+import 'dart:math';
+
+import 'package:core_functionality/core_functionality.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
-import 'package:resta_dash/main.export.dart';
+import 'package:gap/gap.dart';
+import 'package:shared_ui/shared_ui.dart';
 
 class KTextField extends HookWidget {
   const KTextField({
@@ -83,7 +87,6 @@ class KTextField extends HookWidget {
   final BoxConstraints? prefixIconConstraints;
   @override
   Widget build(BuildContext context) {
-    final rndName = useMemoized(() => fk.faker.guid.guid(), [key]);
     final hideText = useState<bool>(true);
 
     final effectiveVPad = isDense ? 10.0 : 15.0;
@@ -99,7 +102,7 @@ class KTextField extends HookWidget {
             Expanded(
               child: FormBuilderTextField(
                 key: _key,
-                name: name ?? rndName,
+                name: name ?? Random.secure().nextInt(100000).toString(),
                 autofocus: autofocus,
                 obscureText: isPassField ? hideText.value : false,
                 initialValue: initialValue,

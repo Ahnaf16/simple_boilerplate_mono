@@ -1,5 +1,5 @@
+import 'package:core_functionality/core_functionality.dart';
 import 'package:flutter/material.dart';
-import 'package:resta_dash/main.export.dart';
 
 class OrDivider extends StatelessWidget {
   const OrDivider({

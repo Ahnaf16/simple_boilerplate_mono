@@ -1,6 +1,6 @@
+import 'package:core_functionality/core_functionality.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:resta_dash/main.export.dart';
 
 extension StringEx on String {
   int get asInt => isEmpty ? 0 : int.tryParse(this) ?? 0;
